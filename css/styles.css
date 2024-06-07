@@ -1,13 +1,50 @@
-body {
+/* CSS Reset */
+body,
+header,
+nav,
+footer {
     margin: 0;
     padding: 0;
+    border: 0;
 }
+
+html {
+    font-family: consolas, "Courier New", monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 0 8px;
+}
+
+section {
+
+    max-width: 60%;
+}
+
+
 header {
     background-color: lightslategray;
     height: auto;
 }
+
 header h1 {
     text-align: center;
     margin: 0;
-    font-size: 5em;
+    font-size: 6em;
+}
+
+.pipelines,
+.swagger,
+.azuire {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#mm {
+    clear: left;
 }

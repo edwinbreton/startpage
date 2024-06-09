@@ -8,6 +8,9 @@ footer {
     border: 0;
 }
 
+article a {
+    display: grid;
+}
 html {
     font-family: consolas, "Courier New", monospace;
 }
@@ -19,32 +22,26 @@ a {
 main {
     margin: 0 8px;
 }
-
-section {
-
-    max-width: 60%;
+h2{
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
 }
 
 
 header {
     background-color: lightslategray;
     height: auto;
-}
-
-header h1 {
-    text-align: center;
-    margin: 0;
+    h1 {
+        margin: 0;
     font-size: 6em;
+    }
 }
 
-.pipelines,
-.swagger,
-.azuire {
-    width: 29%;
-    float: left;
-    margin: 0 2%;
+
+.columns {
+    display: flex;
+    gap: 2em;
 }
 
-#mm {
-    clear: left;
-}

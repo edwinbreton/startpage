@@ -23,7 +23,7 @@ html {
     font-family: consolas, "Courier New", monospace;
 }
 
-a {
+a[target="_blank"] {
     font-weight: lighter;
     text-decoration: none;
 }

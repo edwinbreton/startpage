@@ -2,46 +2,80 @@
 body,
 header,
 nav,
-footer {
+footer,
+div, h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
+body {
+    background-color: #f0f0f0;
+}
+
 article a {
     display: grid;
 }
+
 html {
     font-family: consolas, "Courier New", monospace;
 }
 
 a {
+    font-weight: lighter;
     text-decoration: none;
 }
 
 main {
     margin: 0 8px;
 }
-h2{
-    font-size: 2em;
+
+h2 {
+    font-size: 2rem;
 }
+
 h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 
 header {
-    background-color: lightslategray;
+    background-color: #F1F7ED;
     height: auto;
+
     h1 {
-        margin: 0;
-    font-size: 6em;
+        font-size: 6em;
+        color: #243E36;
     }
 }
 
 
 .columns {
-    display: flex;
-    gap: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
 }
 
+.pipelines {
+    background-color: #243E36;
+    color: #F1F7ED;
+    a{
+        color: #F1F7ED;
+    }
+}
+.swagger{
+    background-color: #7CA982;
+    a {
+        color: #243E36;
+    }
+}
+.azure {
+    background-color: #E0EEC6;
+    a{
+        color: #243E36;
+    }
+}
+.card {
+    padding: 1rem;
+    border-radius: 8px;
+}

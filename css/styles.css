@@ -8,12 +8,14 @@ div, h1, h2, h3, h4 {
     padding: 0;
     border: 0;
 }
-
+ion-icon{
+    padding-right: 5px;
+}
 body {
     background-color: #f0f0f0;
 }
 
-article a {
+article span {
     display: grid;
 }
 
@@ -27,7 +29,12 @@ a {
 }
 
 main {
-    margin: 0 8px;
+    width: 80%;
+    margin: auto;
+}
+
+.cards {
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -74,6 +81,9 @@ header {
     a{
         color: #243E36;
     }
+}
+.card_title {
+    margin-bottom: 10px;
 }
 .card {
     padding: 1rem;

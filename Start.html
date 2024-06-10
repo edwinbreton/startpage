@@ -2,52 +2,75 @@
 
 <html lang="en">
 
-<head>
-	<title></title>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" href="css/styles.css">
-</head>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
 
-<body>
-	<header>
-		<h1>Nexus</h1>
-	</header>
+	<body>
+		<header>
+			<h1>Nexus</h1>
+		</header>
 
-	<main>
-		<section class="cards" id="practice_service">
-			<h3>Practice Service</h3>
-			<div class="columns">
-				<article class="card pipelines">
-					<h4 class="card_title">Pipelines</h4>
-					<a href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=523&_a=summary">Build</a>
-					<a
-						href="https://vetdata.visualstudio.com/Vetdata/_release?definitionId=197&view=mine&_a=releases">Release</a>
-				</article>
+		<main>
+			<section class="cards" id="practice_service">
+				<h3>Practice Service</h3>
+				<div class="columns">
+					<article class="card pipelines">
+						<h4 class="card_title">Pipelines</h4>
+						<span><a
+							href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=523&_a=summary">
+							<ion-icon name="hammer-outline"></ion-icon></ion-icon>Build</a></span>
+						<span> <a
+							href="https://vetdata.visualstudio.com/Vetdata/_release?definitionId=197&view=mine&_a=releases">
+							<ion-icon name="send-outline"></ion-icon>Release</a></span>
+					</article>
 
-				<article class="card swagger">
-					<h4 class="card_title">Swagger Pages</h4>
-						<a href="https://app-vds-practiceservice-dev-eastus.azurewebsites.net/swagger/ui/index">Dev</a>
-						<a href="https://app-vds-practiceservice-staging-eastus.azurewebsites.net/swagger/ui/index">Staging</a>
-						<a href="https://app-vds-practiceservice-eastus.azurewebsites.net/swagger/ui/index">Production</a>
-				</article>
+					<article class="card swagger">
+						<h4 class="card_title">Swagger Pages</h4>
+						<span>
+							<a
+								href="https://app-vds-practiceservice-dev-eastus.azurewebsites.net/swagger/ui/index">
+								<ion-icon name="code-slash-outline"></ion-icon>Dev</a>
+						</span>
+						<span>
+							<a
+								href="https://app-vds-practiceservice-staging-eastus.azurewebsites.net/swagger/ui/index">
+								<ion-icon name="beaker-outline"></ion-icon>Staging</a>
+						</span>
+						<span>
+							<a
+								href="https://app-vds-practiceservice-eastus.azurewebsites.net/swagger/ui/index">
+								<ion-icon name="briefcase-outline"></ion-icon>Production</a>
+						</span>
+					</article>
 
-				<article class="card azure">
-					<h4 class="card_title">Azure Resources</h4>
-					<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-vds-practiceservice-devtest-eastus/providers/Microsoft.Web/serverfarms/plan-vds-practiceservice-devtest-eastus/webHostingPlan">AppService Plan Staging (Monitoring)</a>
-				</article>
-			</div>
-		</section>
-		<section class="cards" id="mm">
-			<h3>Marketplace Manager</h3>
-			<div class="columns">
-				<article class="card pipelines">
-					<h4 class="card_title">Pipelines</h4>
-					<a href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=150&_a=summary">Web
-							Build</a>
-				</article>
-			</div>
-		</section>
-	</main>
-</body>
+					<article class="card azure">
+						<h4 class="card_title">Azure Resources</h4>
+						<a
+							href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-vds-practiceservice-devtest-eastus/providers/Microsoft.Web/serverfarms/plan-vds-practiceservice-devtest-eastus/webHostingPlan">
+							<ion-icon name="beaker-outline"></ion-icon>AppService Plan Staging
+							(Monitoring)</a>
+					</article>
+				</div>
+			</section>
+			<section class="cards" id="mm">
+				<h3>Marketplace Manager</h3>
+				<div class="columns">
+					<article class="card pipelines">
+						<h4 class="card_title">Pipelines</h4>
+						<a
+							href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=150&_a=summary">
+							<ion-icon name="hammer-outline"></ion-icon>Web Build</a>
+					</article>
+				</div>
+			</section>
+		</main>
+		<script type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	</body>
 
 </html>

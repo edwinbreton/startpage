@@ -63,6 +63,17 @@ header {
     gap: 1em;
 }
 
+.boards {
+    background-color: #0077b6;
+    color: #F1F7ED;
+    a{
+        color: #F1F7ED;
+    }
+}
+.repos {
+    background-color: #f77f00;
+}
+
 .pipelines {
     background-color: #243E36;
     color: #F1F7ED;

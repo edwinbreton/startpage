@@ -14,6 +14,7 @@
 		</header>
 
 		<main>
+<!--ADO-->
 			<section class="cards" id="devops">
 				<h3>Azure Dev Ops</h3>
 				<div class="columns">
@@ -32,67 +33,43 @@
 					</article>
 				</div>
 			</section>
-			<section class="cards" id="practice_service">
-				<h3>Practice Service</h3>
+<!--Standard Data-->
+			<section class="cards" id="sd">
+				<h3>Standard Data</h3>
 				<div class="columns">
 					<article class="card pipelines">
 						<h4 class="card_title">Pipelines</h4>
-						<span><a
-							href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=523&_a=summary" target="_blank">
-							<ion-icon name="hammer-outline"></ion-icon></ion-icon>Build</a></span>
-						<span> <a
-							href="https://vetdata.visualstudio.com/Vetdata/_release?definitionId=197&view=mine&_a=releases" target="_blank">
-							<ion-icon name="send-outline"></ion-icon>Release</a></span>
-					</article>
-
-					<article class="card swagger">
-						<h4 class="card_title">Swagger Pages</h4>
 						<span>
 							<a
-								href="https://app-vds-practiceservice-dev-eastus.azurewebsites.net/swagger/ui/index" target="_blank">
-								<ion-icon name="code-slash-outline"></ion-icon>Dev</a>
+								href="[pipeline address]" target="_blank">
+								<ion-icon name="hammer-outline"></ion-icon>Build</a>
 						</span>
 						<span>
 							<a
-								href="https://app-vds-practiceservice-staging-eastus.azurewebsites.net/swagger/ui/index" target="_blank">
-								<ion-icon name="beaker-outline"></ion-icon>Staging</a>
-						</span>
-						<span>
-							<a
-								href="https://app-vds-practiceservice-eastus.azurewebsites.net/swagger/ui/index" target="_blank">
-								<ion-icon name="briefcase-outline"></ion-icon>Production</a>
+								href="release pipeline" target="_blank">
+								<ion-icon name="send-outline"></ion-icon> Release</a>
 						</span>
 					</article>
-
 					<article class="card azure">
 						<h4 class="card_title">Azure Resources</h4>
 						<span>
 							<a
-								href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-vds-practiceservice-devtest-eastus/providers/Microsoft.Web/serverfarms/plan-vds-practiceservice-devtest-eastus/webHostingPlan" target="_blank">
-								<ion-icon name="beaker-outline"></ion-icon>AppService Plan Staging
-								(Monitoring)</a>
-						</span>
-					</article>
-				</div>
-			</section>
-			<section class="cards" id="mm">
-				<h3>Marketplace Manager</h3>
-				<div class="columns">
-					<article class="card pipelines">
-						<h4 class="card_title">Pipelines</h4>
-						<span>
-							<a
-								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=150&_a=summary" target="_blank">
-								<ion-icon name="hammer-outline"></ion-icon>Web Build</a>
+								href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/vetdata-api-dev-eus/overview" target="_blank">
+								<ion-icon name="cube-outline"></ion-icon>Resource Group Dev</a>
+								<p class="sub">vetdata-api-dev-eus</p>
 						</span>
 						<span>
 							<a
-								href="https://vetdata.visualstudio.com/Vetdata/_release?definitionId=21&view=mine&_a=releases" target="_blank">
-								<ion-icon name="send-outline"></ion-icon>Web Release</a>
+								href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/vetdata-api-stage-eus/overview" target="_blank">
+								<ion-icon name="cube-outline"></ion-icon>Resource Group Staging</a>
+								<p class="sub">vetdata-api-stage-eus</p>
 						</span>
-					</article>
-					<article class="card swagger">
-
+						<span>
+							<a
+								href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/2c6eab9a-e994-4830-8420-3951cfefa7f3/resourceGroups/vetdata-api-prod-eus/overview" target="_blank">
+								<ion-icon name="cube-outline"></ion-icon>Resource Group Prod</a>
+								<p class="sub">vetdata-api-prod-eus</p>
+						</span>
 					</article>
 				</div>
 			</section>
@@ -149,6 +126,151 @@
 					</article>
 				</div>
 			</section>
+<!-- Parner Writeback-->
+			<section class="cards" id="">
+				<h3>Parner Writeback</h3>
+				<div class="columns">
+					<article class="card pipelines">
+						<h4 class="card_title">Pipelines</h4>
+						<span>
+							<a
+								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=273" target="_blank">
+								<ion-icon name="hammer-outline"></ion-icon>Build</a>
+						</span>
+						<span>
+							<a
+								href="release pipeline" target="_blank">
+								<ion-icon name="send-outline"></ion-icon> Release</a>
+						</span>
+					</article>
+					<article class="card swagger">
+						<h4 class="card_title">Swagger</h4>
+						<p class="sub">Use Partner App Credentials (e.g. rx-management/guid) <br> Can be found in Apps page of MM</p>
+						<span>
+							<a
+								href="https://api-writeback-dev.vetdata.net/swagger" target="_blank">
+								<ion-icon name="code-slash-outline"></ion-icon>Dev</a>
+						</span>
+						<span>
+							<a
+								href="https://api-writeback-staging.vetdata.net/swagger" target="_blank">
+								<ion-icon name="code-slash-outline"></ion-icon>Staging</a>
+						</span>
+						<span>
+							<a
+								href="https://api-writeback.vetdata.net/swagger" target="_blank">
+								<ion-icon name="code-slash-outline"></ion-icon>Prod</a>
+						</span>
+					</article>
+					<article class="card azure">
+						<h4 class="card_title">Azure Resources</h4>
+						<span>
+							<a
+								href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/vetdata-partnerwriteback-dev/overview" target="_blank">
+								<ion-icon name="cube-outline"></ion-icon>Resource Group Dev</a>
+								<p class="sub">vetdata-partnerwriteback-dev</p>
+						</span>
+						<span>
+							<a
+								href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/vetdata-partnerwriteback-staging/overview" target="_blank">
+								<ion-icon name="cube-outline"></ion-icon>Resource Group Staging</a>
+								<p class="sub">vetdata-partnerwriteback-staging</p>
+						</span>
+						<span>
+							<a
+								href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/2c6eab9a-e994-4830-8420-3951cfefa7f3/resourceGroups/vetdata-partnerwriteback-prod/overview" target="_blank">
+								<ion-icon name="cube-outline"></ion-icon>Resource Group Prod</a>
+								<p class="sub">vetdata-partnerwriteback-prod</p>
+						</span>
+					</article>
+				</div>
+			</section>
+<!--Practice Service--> 
+			<section class="cards" id="practice_service">
+				<h3>Practice Service</h3>
+				<div class="columns">
+					<article class="card pipelines">
+						<h4 class="card_title">Pipelines</h4>
+						<span><a
+							href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=523&_a=summary" target="_blank">
+							<ion-icon name="hammer-outline"></ion-icon></ion-icon>Build</a></span>
+						<span> <a
+							href="https://vetdata.visualstudio.com/Vetdata/_release?definitionId=197&view=mine&_a=releases" target="_blank">
+							<ion-icon name="send-outline"></ion-icon>Release</a></span>
+					</article>
+
+					<article class="card swagger">
+						<h4 class="card_title">Swagger Pages</h4>
+						<span>
+							<a
+								href="https://app-vds-practiceservice-dev-eastus.azurewebsites.net/swagger/ui/index" target="_blank">
+								<ion-icon name="code-slash-outline"></ion-icon>Dev</a>
+						</span>
+						<span>
+							<a
+								href="https://app-vds-practiceservice-staging-eastus.azurewebsites.net/swagger/ui/index" target="_blank">
+								<ion-icon name="beaker-outline"></ion-icon>Staging</a>
+						</span>
+						<span>
+							<a
+								href="https://app-vds-practiceservice-eastus.azurewebsites.net/swagger/ui/index" target="_blank">
+								<ion-icon name="briefcase-outline"></ion-icon>Production</a>
+						</span>
+					</article>
+
+					<article class="card azure">
+						<h4 class="card_title">Azure Resources</h4>
+						<span>
+							<a
+								href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-vds-practiceservice-devtest-eastus/providers/Microsoft.Web/serverfarms/plan-vds-practiceservice-devtest-eastus/webHostingPlan" target="_blank">
+								<ion-icon name="beaker-outline"></ion-icon>AppService Plan Staging
+								(Monitoring)</a>
+								<a
+								href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/2c6eab9a-e994-4830-8420-3951cfefa7f3/resourceGroups/rg-vds-practiceservice-eastus/overview" target="_blank">
+								<ion-icon name="beaker-outline"></ion-icon>Practice Service Prod Resource Group
+								</a>
+						</span>
+					</article>
+				</div>
+			</section>
+<!--MM-->
+			<section class="cards" id="mm">
+				<h3>Marketplace Manager</h3>
+				<div class="columns">
+					<article class="card pipelines">
+						<h4 class="card_title">Pipelines</h4>
+						<span>
+							<a
+								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=150&_a=summary" target="_blank">
+								<ion-icon name="hammer-outline"></ion-icon>Web Build</a>
+						</span>
+						<span>
+							<a
+								href="https://vetdata.visualstudio.com/Vetdata/_release?definitionId=21&view=mine&_a=releases" target="_blank">
+								<ion-icon name="send-outline"></ion-icon>Web Release</a>
+						</span>
+					</article>
+					<article class="card ui">
+						<h4 class="card_title">UI</h4>
+						<span>
+							<a
+								href="https://marketplaceman-dev.vetdata.net/home" target="_blank">
+								<ion-icon name="desktop-outline"></ion-icon>Marketplace Manager Dev</a>
+						</span>
+						<span>
+							<a
+								href="https://marketplaceman-staging.vetdata.net/home" target="_blank">
+								<ion-icon name="desktop-outline"></ion-icon>Marketplace Manager Staging</a>
+						</span>
+						<span>
+							<a
+								href="https://marketplaceman.vetdata.net/home" target="_blank">
+								<ion-icon name="desktop-outline"></ion-icon>Marketplace Manager Prod</a>
+						</span>
+					</article>
+				</div>
+			</section>
+<!--Cloud Services-->
 			<section class="cards" id="cloud_services">
 				<h3>Cloud Services</h3>
 				<div class="columns">
@@ -185,11 +307,9 @@
 								<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>Broker Agent 6 CSES</a>
 						</span>
 					</article>
-					<article class="card swagger">
-
-					</article>
 				</div>
 			</section>
+<!--Docs-->
 			<section class="cards" id="Docs">
 				<h3>Confluence Docs</h3>
 				<div class="columns">
@@ -199,6 +319,28 @@
 							<a
 								href="https://dvmwiki.atlassian.net/wiki/spaces/DEV/pages/2300969918/Grant+database+access+to+an+Azure+Active+Directory+app+user" target="_blank">
 								<ion-icon name="document-text-outline"></ion-icon>Grant database access to an Azure Active Directory app/user</a>
+						</span>
+					</article>
+					<article class="card ">
+
+					</article>
+				</div>
+			</section>
+<!--Maintenance-->
+			<section class="cards" id="">
+				<h3>Maintenance</h3>
+				<div class="columns">
+					<article class="card pipelines">
+						<h4 class="card_title">Pipelines</h4>
+						<span>
+							<a
+								href="[pipeline address]" target="_blank">
+								<ion-icon name="hammer-outline"></ion-icon>Build</a>
+						</span>
+						<span>
+							<a
+								href="release pipeline" target="_blank">
+								<ion-icon name="send-outline"></ion-icon> Release</a>
 						</span>
 					</article>
 					<article class="card ">

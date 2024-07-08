@@ -72,9 +72,6 @@ header {
     }
 }
 
-.hidden {
-    display: none;
-}
 .columns {
     display: grid;
     grid-gap: 1em;

@@ -12,6 +12,10 @@ ion-icon{
     padding-right: 5px;
 }
 
+.exp on click{
+    margin-top: 3px;
+ }
+
 body {
     background-color: #f0f0f0;
 }
@@ -68,7 +72,9 @@ header {
     }
 }
 
-
+.hidden {
+    display: none;
+}
 .columns {
     display: grid;
     grid-gap: 1em;

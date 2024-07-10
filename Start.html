@@ -33,6 +33,15 @@
 						</article>
 					</div>
 			</section>
+<!--ISA
+		<section class="cards" id="">
+			<h3>ISA</h3>
+			<div class="columns">
+				<article class="card ">
+
+				</article>
+			</div>
+		</section> -->
 <!--Standard Data-->
 			<section class="cards" id="sd">
 				<h3>Standard Data</h3>
@@ -332,22 +341,51 @@
 				<div class="columns">
 					<article class="card pipelines">
 						<h4 class="card_title">Pipelines</h4>
+						<h5>Base Data Access Llogs (BDAL)</h5>
 						<span>
 							<a
-								href="[pipeline address]" target="_blank">
-								<ion-icon name="hammer-outline"></ion-icon>Build</a>
+								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=902" target="_blank">
+								<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Archive</a>
 						</span>
 						<span>
 							<a
-								href="release pipeline" target="_blank">
-								<ion-icon name="send-outline"></ion-icon> Release</a>
+								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=808" target="_blank">
+								<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Console App</a>
+						</span>
+						<span>
+							<a
+								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=798" target="_blank">
+								<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Runner
+							</a>
+						</span>
+						<span>
+							<a
+								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=827" target="_blank">
+								<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Manager</a>
 						</span>
 					</article>
-					<article class="card ">
-
+					<article class="card azure">
+						<h4 class="card_title">Azure Resource Groups</h4>
+						<h5>Base Data Access Logs (BDAL)</h5>
+						<span>
+							<h6> Archive </h6>
+							<a target="_blank" href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-isa-maintenance-bdaltrimmer-archive-stg1-eastus/overview">BDAL Archive Staging</a>
+							<p class="sub">rg-isa-maintenance-bdaltrimmer-archive-stg1-eastus</p>
+						</span>
+						<span>
+							<h6>Runner</h6>
+							<a target="_blank" href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-isa-maintenance-bdaltrimmer-runner-stg1-eastus/overview"> BDAL Trimmer Runner Staging</a>
+							<p class="sub">rg-isa-maintenance-bdaltrimmer-runner-stg1-eastus</p>
+						</span>
+						<span>
+							<h6>Manager</h6>
+							<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-isa-maintenance-bdaltrimmer-manager-stg1-eastus/overview" target="_blank" >BDAL Trimmer Manager Staging</a>
+							<p class="sub">rg-isa-maintenance-bdaltrimmer-manager-stg1-eastus</p>
+						</span>
 					</article>
 				</div>
 			</section>
+
 		</main>
 		<script type="module"
 			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

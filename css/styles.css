@@ -3,7 +3,7 @@ body,
 header,
 nav,
 footer, p,
-div, h1, h2, h3, h4, h5 {
+div, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     border: 0;
@@ -18,15 +18,12 @@ ion-icon{
 
 body {
     background-color: #f0f0f0;
+    font-family: consolas, "Courier New", monospace;
 }
 
 article span {
     display: grid;
     grid-template-columns: auto-fit;
-}
-
-html {
-    font-family: consolas, "Courier New", monospace;
 }
 
 a {

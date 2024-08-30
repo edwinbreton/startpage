@@ -1,3 +1,4 @@
+@charset "utf-8";
 /* CSS Reset */
 body,
 header,
@@ -52,11 +53,15 @@ h3 {
     font-size: 1.5rem;
 }
 h5 {
+    margin-top: .5rem;
     margin-bottom: .5rem;
 }
 .sub {
     font-weight: lighter;
     font-size: 0.7em;
+}
+article h6::after {
+    content: "↴";
 }
 
 header {
@@ -120,3 +125,13 @@ header {
     padding: 1rem;
     border-radius: 8px;
 }
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+  }
+  .code {
+    background-color: darkgrey;
+  }

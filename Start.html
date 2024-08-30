@@ -34,6 +34,7 @@
 					</div>
 			</section>
 <!--ISA
+
 		<section class="cards" id="">
 			<h3>ISA</h3>
 			<div class="columns">
@@ -42,6 +43,148 @@
 				</article>
 			</div>
 		</section> -->
+<!--Docs-->
+		<section class="cards" id="Docs">
+			<h3>Confluence Docs</h3>
+			<div class="columns">
+				<article class="card docs">
+					<h4 class="card_title">DB and SQL Docs</h4>
+					<span>
+						<a
+							href="https://dvmwiki.atlassian.net/wiki/spaces/DEV/pages/2300969918/Grant+database+access+to+an+Azure+Active+Directory+app+user" target="_blank">
+							<ion-icon name="document-text-outline"></ion-icon>Grant database access to an Azure Active Directory app/user</a>
+					</span>
+				</article>
+				<article class="card docs">
+					<h4 class="card_title">Maintenance Jobs</h4>
+					<span>
+						<a
+							href="https://dvmwiki.atlassian.net/wiki/spaces/DEV/pages/369393797/Maintenance+Jobs" target="_blank">
+							<ion-icon name="document-text-outline"></ion-icon>Maintenance Job Infrastructure</a>
+					</span>
+				</article>
+				<article class="card docs">
+					<h4 class="card_title">Wutsup</h4>
+					<span>
+						<a
+							href="https://dvmwiki.atlassian.net/wiki/spaces/QA/pages/135037189/Wutsup+Tech+Ops+Web+App" target="_blank">
+							<ion-icon name="document-text-outline"></ion-icon>Wutsup (Tech Ops Web App)</a>
+					</span>
+				</article>
+			</div>
+		</section>
+<!--Maintenance-->
+		<section class="cards" id="maint">
+			<h3>Maintenance Jobs</h3>
+			<div class="columns">
+				<article class="card pipelines">
+					<h4 class="card_title">Pipelines</h4>
+					<h5>Base Data Access Llogs (BDAL)</h5>
+					<span>
+						<a
+							href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=902" target="_blank">
+							<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Archive</a>
+					</span>
+					<span>
+						<a
+							href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=808" target="_blank">
+							<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Console App</a>
+					</span>
+					<span>
+						<a
+							href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=798" target="_blank">
+							<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Runner
+						</a>
+					</span>
+					<span>
+						<a
+							href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=827" target="_blank">
+							<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Manager</a>
+					</span>
+					<h5>Maintence Jobs</h5>
+					<span>
+						<a href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=650" target="_blank" >
+							<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>Event Scheduler
+						</a>
+					</span>
+					<span>
+						<h6>Maintenance Job Enqueuer</h6>
+						<a href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=652" target="_blank" >
+							<ion-icon name="hammer-outline"></ion-icon>Build
+						</a>
+						<a href="https://vetdata.visualstudio.com/Vetdata/_release?_a=releases&view=mine&definitionId=89" target="_blank" >
+							</ion-icon><ion-icon name="send-outline"></ion-icon>Release
+						</a>
+					</span>
+					<span>
+						<h6>Maintenance Job Processor</h6>
+						<a href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=651" target="_blank" >
+							<ion-icon name="hammer-outline"></ion-icon>Build
+						</a>
+						<a href="https://vetdata.visualstudio.com/Vetdata/_release?_a=releases&view=mine&definitionId=90" target="_blank" >
+							</ion-icon><ion-icon name="send-outline"></ion-icon>Release
+						</a>
+					</span>
+				</article>
+				<article class="card azure">
+					<h4 class="card_title">Azure Resource Groups</h4>
+					<h5>Mainenance Jobs</h5>
+					<span>
+						<h6>Scheduler and Event Grid </h6>
+						<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/vetdata-core-staging1/overview" target="_blank">
+							<ion-icon name="cube-outline"></ion-icon>RG with Event Grid Topic Staging</a>
+						<p class="sub">vetdata-core-staging1</p>
+						<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-event-scheduler-stg1-eastus/overview" target="_blank">
+							<ion-icon name="cube-outline"></ion-icon>Scheduler Function App Staging</a>
+						<p class="sub">rg-event-scheduler-stg1-eastus</p>
+						<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/2c6eab9a-e994-4830-8420-3951cfefa7f3/resourceGroups/vetdata-core-prod/overview" target="_blank" >
+							<ion-icon name="cube-outline"></ion-icon>RG with Event Grid Topic Prod</a>
+						<p class="sub">vetdata-core-prod</p>
+						<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/2c6eab9a-e994-4830-8420-3951cfefa7f3/resourceGroups/rg-event-scheduler-prod-eastus/overview" target="_blank" >
+							<ion-icon name="cube-outline"></ion-icon>Scheduler Function App Prod</a>
+						<p class="sub">rg-event-scheduler-prod-eastus</p>
+					</span>
+					<span>
+						<h6>Enqueuer </h6>
+						<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-vds-maintenance-enqueuer-stg1-eastus/overview" target="_blank">
+							<ion-icon name="cube-outline"></ion-icon>Maintenance Job Enqueuer</a>
+						<p class="sub">rg-vds-maintenance-enqueuer-stg1-eastus</p>
+						<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-vds-maintenance-enqueuer-stg1-eastus/overview" target="_blank">
+							<ion-icon name="cube-outline"></ion-icon>Maintenance Job Enqueuer</a>
+						<p class="sub">rg-vds-maintenance-enqueuer-stg1-eastus</p>
+					</span>
+					<span>
+						<h6>Processor </h6>
+						<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-vds-maintenance-processor-stg1-eastus/overview" target="_blank">
+							<ion-icon name="cube-outline"></ion-icon>Maintenance Job Processor Staging</a>
+						<p class="sub">rg-vds-maintenance-processor-stg1-eastus</p>
+						<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/2c6eab9a-e994-4830-8420-3951cfefa7f3/resourceGroups/rg-vds-maintenance-processor-prod-eastus/overview" target="_blank">
+							<ion-icon name="cube-outline"></ion-icon>Maintenance Job Processor Prod</a>
+						<p class="sub">rg-vds-maintenance-processor-prod-eastus</p>
+					</span>
+					<h5>Base Data Access Logs (BDAL)</h5>
+					<span>
+						<h6> Archive </h6>
+						<a target="_blank" href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-isa-maintenance-bdaltrimmer-archive-stg1-eastus/overview">
+							<ion-icon name="cube-outline"></ion-icon>BDAL Archive Staging</a>
+						<p class="sub">rg-isa-maintenance-bdaltrimmer-archive-stg1-eastus</p>
+					</span>
+					<span>
+						<h6>Runner </h6>
+						<a target="_blank" href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-isa-maintenance-bdaltrimmer-runner-stg1-eastus/overview">
+							<ion-icon name="cube-outline"></ion-icon>BDAL Trimmer Runner Staging</a>
+						<p class="sub">rg-isa-maintenance-bdaltrimmer-runner-stg1-eastus</p>
+					</span>
+					<span>
+						<h6>Manager </h6>
+						<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-isa-maintenance-bdaltrimmer-manager-stg1-eastus/overview" target="_blank">
+							<ion-icon name="cube-outline"></ion-icon>BDAL Trimmer Manager Staging</a>
+						<p class="sub">rg-isa-maintenance-bdaltrimmer-manager-stg1-eastus</p>
+					</span>
+					
+				</article>
+			</div>
+		</section>
 <!--Standard Data-->
 			<section class="cards" id="sd">
 				<h3>Standard Data</h3>
@@ -135,9 +278,9 @@
 					</article>
 				</div>
 			</section>
-<!-- Parner Writeback-->
+<!-- Partner Writeback-->
 			<section class="cards" id="">
-				<h3>Parner Writeback</h3>
+				<h3>Partner Writeback</h3>
 				<div class="columns">
 					<article class="card pipelines">
 						<h4 class="card_title">Pipelines</h4>
@@ -242,6 +385,29 @@
 					</article>
 				</div>
 			</section>
+
+<!-- Secret Service -->
+			<section class="cards" id="">
+				<h3>Secret Service</h3>
+				<div class="columns">
+					<article class="card pipelines">
+						<h4 class="card_title">Pipelines</h4>
+						<span>
+							<a
+								href="[pipeline address]" target="_blank">
+								<ion-icon name="hammer-outline"></ion-icon>Build</a>
+						</span>
+						<span>
+							<a
+								href="release pipeline" target="_blank">
+								<ion-icon name="send-outline"></ion-icon> Release</a>
+						</span>
+					</article>
+					<article class="card ">
+
+					</article>
+				</div>
+			</section>
 <!--MM-->
 			<section class="cards" id="mm">
 				<h3>Marketplace Manager</h3>
@@ -319,74 +485,25 @@
 					</article>
 				</div>
 			</section>
-<!--Docs-->
-			<section class="cards" id="Docs">
-				<h3>Confluence Docs</h3>
-				<div class="columns">
-					<article class="card docs">
-						<h4 class="card_title">DB and SQL Docs</h4>
-						<span>
-							<a
-								href="https://dvmwiki.atlassian.net/wiki/spaces/DEV/pages/2300969918/Grant+database+access+to+an+Azure+Active+Directory+app+user" target="_blank">
-								<ion-icon name="document-text-outline"></ion-icon>Grant database access to an Azure Active Directory app/user</a>
-						</span>
-					</article>
-					<article class="card ">
-
-					</article>
-				</div>
-			</section>
-<!--Maintenance-->
+<!--Code Snippets-->
 			<section class="cards" id="">
-				<h3>Maintenance</h3>
+				<h3>Code Snippets for Copy/Pasta</h3>
 				<div class="columns">
-					<article class="card pipelines">
-						<h4 class="card_title">Pipelines</h4>
-						<h5>Base Data Access Llogs (BDAL)</h5>
+					<article class="card code">
+						<h4 class="card_title">Playwright</h4>
+						<h5>PowerShell</h5>
 						<span>
-							<a
-								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=902" target="_blank">
-								<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Archive</a>
-						</span>
-						<span>
-							<a
-								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=808" target="_blank">
-								<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Console App</a>
-						</span>
-						<span>
-							<a
-								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=798" target="_blank">
-								<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Runner
-							</a>
-						</span>
-						<span>
-							<a
-								href="https://vetdata.visualstudio.com/Vetdata/_build?definitionId=827" target="_blank">
-								<ion-icon name="hammer-outline"></ion-icon><ion-icon name="send-outline"></ion-icon>BDAL Trimmer Manager</a>
-						</span>
-					</article>
-					<article class="card azure">
-						<h4 class="card_title">Azure Resource Groups</h4>
-						<h5>Base Data Access Logs (BDAL)</h5>
-						<span>
-							<h6> Archive </h6>
-							<a target="_blank" href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-isa-maintenance-bdaltrimmer-archive-stg1-eastus/overview">BDAL Archive Staging</a>
-							<p class="sub">rg-isa-maintenance-bdaltrimmer-archive-stg1-eastus</p>
-						</span>
-						<span>
-							<h6>Runner</h6>
-							<a target="_blank" href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-isa-maintenance-bdaltrimmer-runner-stg1-eastus/overview"> BDAL Trimmer Runner Staging</a>
-							<p class="sub">rg-isa-maintenance-bdaltrimmer-runner-stg1-eastus</p>
-						</span>
-						<span>
-							<h6>Manager</h6>
-							<a href="https://portal.azure.com/#@vetdata.onmicrosoft.com/resource/subscriptions/7cf67ea0-3efe-4b2f-aac8-f63f6b7bda2e/resourceGroups/rg-isa-maintenance-bdaltrimmer-manager-stg1-eastus/overview" target="_blank" >BDAL Trimmer Manager Staging</a>
-							<p class="sub">rg-isa-maintenance-bdaltrimmer-manager-stg1-eastus</p>
+							<p><ion-icon name="barcode-outline"></ion-icon>
+								Launch Live Code Generation for PlayWright from a powershell window in the project folder.
+								Replace [URL] with the URL of the page to generate code for.
+							</p>
+							<code>
+								pwsh bin/Debug/net8.0/playwright.ps1 codegen [url]
+							</code>
 						</span>
 					</article>
 				</div>
 			</section>
-
 		</main>
 		<script type="module"
 			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

@@ -89,7 +89,7 @@ article span {
     grid-template-columns: auto-fit;
 }
 #maint {
-    grid-row: 2/4;
+    grid-row: span 3;
 }
 /* Card Type Styles*/
 .boards {

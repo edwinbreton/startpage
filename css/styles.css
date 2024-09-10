@@ -71,10 +71,7 @@ main {
     width: 95%;
     margin: auto;
 }
-section {
-    /* outline: 2px dotted royalblue; */
-    align-content: start;
-}
+
 .columns {
     /* outline: 2px dashed greenyellow; */
     display: grid;
@@ -90,6 +87,7 @@ article span {
 }
 #maint {
     grid-row: span 3;
+
 }
 /* Card Type Styles*/
 .boards {

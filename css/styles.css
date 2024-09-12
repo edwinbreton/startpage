@@ -1,25 +1,32 @@
 @charset "utf-8";
+
 /* CSS Reset */
 body,
 header,
 nav,
-footer, p,
-div, h1, h2, h3, h4, h5, h6 {
+footer,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
     border: 0;
 }
-ion-icon{
+
+ion-icon {
     padding-right: 5px;
 }
 
-.exp on click{
+.exp on click {
     margin-top: 3px;
- }
+}
 
 body {
-    background-color:#e6f5eb;
-    
     font-family: consolas, "Courier New", monospace;
 }
 
@@ -42,20 +49,24 @@ h2 {
 h3 {
     font-size: 1.5rem;
 }
+
 h5 {
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
+
 .sub {
     font-weight: lighter;
     font-size: 0.7em;
 }
+
 article h6::after {
     content: "↴";
 }
 
 header {
     background-image: url(../images/Header.svg);
+    background-color: #e6f5eb;
     background-size: auto 200px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -66,6 +77,7 @@ header {
         color: #243E36;
     }
 }
+
 /*Grid Styles*/
 main {
     /* outline: 2px solid red; */
@@ -88,65 +100,82 @@ article span {
     display: grid;
     grid-template-columns: auto-fit;
 }
+
 #maint {
     grid-row: span 3;
 
 }
+
 /* Card Type Styles*/
 .boards {
     background-color: #0077b6;
     color: #F1F7ED;
-    a{
+
+    a {
         color: #F1F7ED;
     }
 }
+
 .repos {
     background-color: #f77f00;
     color: #F1F7ED;
-    a{
+
+    a {
         color: #F1F7ED;
     }
 }
+
 .docs {
     background-color: #6B8E23;
     color: #F1F7ED;
-    a{
+
+    a {
         color: #F1F7ED;
     }
 }
+
 .pipelines {
     background-color: #243E36;
     color: #F1F7ED;
-    a{
+
+    a {
         color: #F1F7ED;
     }
 }
-.swagger{
+
+.swagger {
     background-color: #7CA982;
+
     a {
         color: #243E36;
     }
 }
+
 .azure {
     background-color: #E0EEC6;
-    a{
+
+    a {
         color: #243E36;
     }
 }
+
 .card_title {
     margin-bottom: 10px;
 }
+
 .card {
     padding: 1rem;
     border-radius: 8px;
 }
+
 code {
-    font-family: Consolas,"courier new";
+    font-family: Consolas, "courier new";
     color: crimson;
     background-color: #f1f1f1;
     padding: 2px;
     font-size: 105%;
-  }
-  .code {
+}
+
+.code {
     background-color: darkgrey;
-  }
+}

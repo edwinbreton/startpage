@@ -46,6 +46,10 @@ a {
     border-radius: 8px;
     box-shadow: black 1px 1px 1px;
 }
+.card:hover{
+    transform: scale(1.01) translateX(-5px) translateY(-1px);
+    box-shadow: black 2px 2px 2px;
+}
 .card_title {
     margin-bottom: 10px;
 }

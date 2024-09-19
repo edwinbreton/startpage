@@ -18,9 +18,9 @@ h6 {
     padding: 0;
     border: 0;
 }
-main * {
+/* main * {
     border: #0077b6 dashed 2px;
-}
+} */
 
 ion-icon {
     padding-right: 5px;
@@ -114,15 +114,19 @@ header {
 
 /*Grid Styles*/
 main {
+    /* display: flex;
+    flex-flow: row wrap;
+    flex-basis: 250px;
+    flex-grow: 2; */
+}
+#container {
+    
     /* outline: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
     width: 95%;
     margin: auto;
-}
-#container {
-    display: flex;
-    flex-flow: column wrap;
 }
 
 .columns {
@@ -134,15 +138,15 @@ main {
     grid-auto-flow: dense;
 }
 
-/* article span {
+article div {
     display: grid;
     grid-template-columns: auto-fit;
-} */
+} 
 
-/* #maint {
+ #maint {
     grid-row: span 3;
 
-} */
+}
 
 /* Card Type Styles*/
 .boards {

@@ -5,6 +5,7 @@ body,
 header,
 nav,
 footer,
+section,
 p,
 div,
 h1,
@@ -17,6 +18,9 @@ h6 {
     padding: 0;
     border: 0;
 }
+main * {
+    border: #0077b6 dashed 2px;
+}
 
 ion-icon {
     padding-right: 5px;
@@ -27,18 +31,22 @@ ion-icon {
 }
 
 body {
+    box-sizing: border-box;
     font-family: consolas, "Courier New", monospace;
 }
-
+section {
+    margin: 1px;
+    padding: 1px;
+}
 a {
     font-weight: light;
     text-decoration: none;
 }
 /*Card styles*/
-.cards {
+/* .cards {
     margin-bottom: 2rem;
     margin-right: 1em;
-}
+} */
 
 .card {
     padding: 1rem;
@@ -76,6 +84,19 @@ h5 {
 article h6::after {
     content: "↴";
 }
+article.azure h6 {
+    padding-left: 1em;
+    background-color: #243E36;
+    color: #f1f1f1;
+    border-radius: 4px;
+}
+article.pipelines h6 {
+    padding-left: 1em;
+    background-color: #E0EEC6;
+    color: black;
+    border-radius: 4px;
+}
+
 
 header {
     background-image: url(../images/Header.svg);
@@ -99,6 +120,10 @@ main {
     width: 95%;
     margin: auto;
 }
+#container {
+    display: flex;
+    flex-flow: column wrap;
+}
 
 .columns {
     /* outline: 2px dashed greenyellow; */
@@ -109,15 +134,15 @@ main {
     grid-auto-flow: dense;
 }
 
-article span {
+/* article span {
     display: grid;
     grid-template-columns: auto-fit;
-}
+} */
 
-#maint {
+/* #maint {
     grid-row: span 3;
 
-}
+} */
 
 /* Card Type Styles*/
 .boards {

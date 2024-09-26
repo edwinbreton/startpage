@@ -187,3 +187,9 @@ code {
         display: grid;
     }
 }
+
+@Media only screen and (min-width: 1990px) {
+    #container {
+        column-count: 3;
+    }
+}

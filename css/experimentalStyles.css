@@ -21,16 +21,24 @@ h6 {
 
 #container {
     column-count: 2;
+    widows: 10;
+    orphans: 10;
     /* display: flex;
     flex-flow: row wrap;
     flex: 3 1 50%;
     justify-content: space-evenly; */
-    width: 95%;
+    width: 98%;
     margin: auto;
 }
+#container > * {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+
 .columns {
     display: flex;
-/*     
+    /*     
     outline: #0077b6 SOLID 2px; */
 }
 
@@ -47,14 +55,17 @@ header {
         color: #243E36;
     }
 }
+
 body {
     box-sizing: border-box;
     font-family: consolas, "Courier New", monospace;
 }
+
 section {
     margin: 1px;
     padding: 1px;
 }
+
 a {
     font-weight: light;
     text-decoration: none;
@@ -69,10 +80,12 @@ a {
     flex-basis: 0px;
     flex-grow: 1;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.01) translateX(-5px) translateY(-1px);
     box-shadow: black 2px 2px 2px;
 }
+
 .card_title {
     margin-bottom: 10px;
 }
@@ -100,12 +113,14 @@ h5 {
 article h6::after {
     content: "↴";
 }
+
 article.azure h6 {
     padding-left: 1em;
     background-color: #243E36;
     color: #f1f1f1;
     border-radius: 4px;
 }
+
 article.pipelines h6 {
     padding-left: 1em;
     background-color: #E0EEC6;
@@ -183,6 +198,7 @@ code {
     #container {
         column-count: 1;
     }
+
     .columns {
         display: grid;
     }

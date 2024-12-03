@@ -18,7 +18,10 @@ h6 {
     padding: 0;
     border: 0;
 }
-
+a {
+    text-decoration: none;
+    color: #243E36;
+}
 #container {
     column-count: 2;
     widows: 10;
@@ -179,6 +182,10 @@ article.pipelines h6 {
     a {
         color: #243E36;
     }
+}
+
+.insights {
+    background-color: lightskyblue;
 }
 
 
